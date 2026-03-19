@@ -2,14 +2,14 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.swiper-img').forEach((swiperEl) => {
         const container = swiperEl.closest('.swiper-img-container');
         
-        // Находим текстовый элемент для счетчика (может быть .swiper-slide или .swiper-counter)
-        const textEl = container.querySelector('.swiper-img_text .swiper-slide') || 
-                      container.querySelector('.swiper-counter');
+        // Находим элементы для счетчика и текста подписи
+        const counterEl = container.querySelector('.swiper-counter');
+        const descSpan = container.querySelector('.swiper-img_desc span');
         
         const nextEl = container.querySelector('.swiper-img_nav__next');
         const prevEl = container.querySelector('.swiper-img_nav__prev');
         
-        if (!textEl) return; // Если нет элемента для текста, пропускаем
+        if (!counterEl || !descSpan) return; // Проверяем наличие всех нужных элементов
         
         new Swiper(swiperEl, {
             loop: true,
@@ -24,12 +24,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 slideChange: function() {
                     const currentSlide = this.realIndex + 1;
                     const totalSlides = this.slides.length;
-                    textEl.textContent = `${currentSlide}/${totalSlides}`;
+                    
+                    // Обновляем счетчик
+                    counterEl.textContent = `${currentSlide}/${totalSlides}`;
+                    
+                    // Получаем активный слайд и обновляем текст подписи из data-text
+                    const activeSlide = this.slides[this.activeIndex];
+                    const slideText = activeSlide.getAttribute('data-text');
+                    if (slideText) {
+                        descSpan.textContent = slideText;
+                    }
                 },
                 init: function() {
                     const currentSlide = this.realIndex + 1;
                     const totalSlides = this.slides.length;
-                    textEl.textContent = `${currentSlide}/${totalSlides}`;
+                    
+                    // Обновляем счетчик при инициализации
+                    counterEl.textContent = `${currentSlide}/${totalSlides}`;
+                    
+                    // Получаем первый слайд и устанавливаем его текст подписи
+                    const activeSlide = this.slides[this.activeIndex];
+                    const slideText = activeSlide.getAttribute('data-text');
+                    if (slideText) {
+                        descSpan.textContent = slideText;
+                    }
                 }
             }
         });
