@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Отчеты за</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script
+        data-skip-moving="true">(function (w, d) { var v = w.frameCacheVars = { "CACHE_MODE": "HTMLCACHE", "storageBlocks": [], "dynamicBlocks": { "LkGdQn": "c93353f033b1", "XEVOpk": "c93353f033b1" }, "AUTO_UPDATE": true, "AUTO_UPDATE_TTL": 120, "version": 2 }; var inv = false; if (v.AUTO_UPDATE === false) { if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0) { var lm = Date.parse(d.lastModified); if (!isNaN(lm)) { var td = new Date().getTime(); if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td) { w.frameRequestStart = false; w.preventAutoUpdate = true; return; } inv = true; } } else { w.frameRequestStart = false; w.preventAutoUpdate = true; return; } } var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null); if (!r) { return; } w.frameRequestStart = true; var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime(); var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : ""); var u = l.protocol + "//" + l.host + l.pathname + q; r.open("GET", u, true); r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic"); r.setRequestHeader("X-Bitrix-Composite", "get_dynamic"); r.setRequestHeader("BX-CACHE-MODE", m); r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : ""); if (inv) { r.setRequestHeader("BX-INVALIDATE-CACHE", "Y"); } try { r.setRequestHeader("BX-REF", d.referrer || ""); } catch (e) { } if (m === "APPCACHE") { r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS)); r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : ""); } r.onreadystatechange = function () { if (r.readyState != 4) { return; } var a = r.getResponseHeader("BX-RAND"); var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false; if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)) { var f = { error: true, reason: a != x ? "bad_rand" : "bad_status", url: u, xhr: r, status: r.status }; if (w.BX && w.BX.ready && b) { BX.ready(function () { setTimeout(function () { BX.onCustomEvent("onFrameDataRequestFail", [f]); }, 0); }); } w.frameRequestFail = f; return; } if (b) { b.onFrameDataReceived(r.responseText); if (!w.frameUpdateInvoked) { b.update(false); } w.frameUpdateInvoked = true; } else { w.frameDataString = r.responseText; } }; r.send(); var p = w.performance; if (p && p.addEventListener && p.getEntries && p.setResourceTimingBufferSize) { var e = 'resourcetimingbufferfull'; var h = function () { if (w.BX && w.BX.frameCache && w.BX.frameCache.frameDataInserted) { p.removeEventListener(e, h); } else { p.setResourceTimingBufferSize(p.getEntries().length + 50); } }; p.addEventListener(e, h); } })(window, document);</script>
+    <script
+        data-skip-moving="true">(function (w, d, n) { var cl = "bx-core"; var ht = d.documentElement; var htc = ht ? ht.className : undefined; if (htc === undefined || htc.indexOf(cl) !== -1) { return; } var ua = n.userAgent; if (/(iPad;)|(iPhone;)/i.test(ua)) { cl += " bx-ios"; } else if (/Windows/i.test(ua)) { cl += ' bx-win'; } else if (/Macintosh/i.test(ua)) { cl += " bx-mac"; } else if (/Linux/i.test(ua) && !/Android/i.test(ua)) { cl += " bx-linux"; } else if (/Android/i.test(ua)) { cl += " bx-android"; } cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch"); cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina"; if (/AppleWebKit/.test(ua)) { cl += " bx-chrome"; } else if (/Opera/.test(ua)) { cl += " bx-opera"; } else if (/Firefox/.test(ua)) { cl += " bx-firefox"; } ht.className = htc ? htc + " " + cl : cl; })(window, document, navigator);</script>
+
+
+    <link
+        href="cache/css/s1/chudo/template_574979b59119a605ac5221c2a6e7b088/template_574979b59119a605ac5221c2a6e7b088_v1.css@1773847986239901.css"
+        type="text/css" data-template-style="true" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./page-result.css">
+
+
+
+
+
+    <style>
+        .nca-cookiesaccept-line {
+            box-sizing: border-box !important;
+            margin: 0 !important;
+            border: none !important;
+            width: 100% !important;
+            min-height: 10px !important;
+            max-height: 250px !important;
+            display: block;
+            clear: both !important;
+            padding: 12px !important;
+            position: fixed;
+            bottom: 0px !important;
+            opacity: 1;
+            transform: translateY(0%);
+            z-index: 99999;
+        }
+
+        .nca-cookiesaccept-line>div {
+            display: flex;
+            align-items: center;
+        }
+
+        .nca-cookiesaccept-line>div>div {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .nca-cookiesaccept-line a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width:767px) {
+            .nca-cookiesaccept-line>div>div {
+                padding-left: 1%;
+                padding-right: 1%;
+            }
+        }
+    </style>
+
+
+
+
+    <meta property="og:title" content="Отчеты за">
+    <meta property="og:site_name" content="Жизнь, как чудо">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://kakchudo.ru/reports/">
+    <meta property="og:image" content="https://kakchudo.ru/logo-min.png">
+    <meta property="og:description"
+        content="C 2009 года фонд «Жизнь как чудо» помогает детям с тяжёлыми заболеваниями печени вовремя пройти лечение. Более 600 подопечных из различных регионов нашей страны получают регулярную поддержку в оплате обследований, операций, лекарств, транспортных расходов, проживания.">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__in">
+                <div class="header__l">
+                    <div class="btn-burger__wrapper visible-tablet-big">
+                        <button class="btn-burger">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </button>
+                    </div>
+
+                    <a href="https://kakchudo.ru/" class="header__logo">
+                        <img src="templates/chudo/img/logo2.png" alt="" class="header__logo-img">
+                        <img src="templates/chudo/img/logo2.png" alt="" class="header__logo-img mobile">
+                    </a>
+                </div>
+                <div class="header__r">
+                    <nav class="nav">
+                        <ul>
+
+                            <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
+
+                            <li><a href="https://kakchudo.ru/about/">О фонде</a></li>
+
+                            <li><a href="https://kakchudo.ru/help/need/">Помочь</a></li>
+
+                            <li><a href="https://kakchudo.ru/projects/">Проекты</a></li>
+
+                            <li><a href="index.html" class="is-active">Отчёты</a></li>
+
+                            <li><a href="https://kakchudo.ru/news/">Публикации</a></li>
+
+                            <li><a href="https://kakchudo.ru/request/">Нужна помощь?</a></li>
+
+                            <li><a href="https://kakchudo.ru/about/contacts/">Контакты</a></li>
+
+
+                            <div id="bxdynamic_LkGdQn_end" style="display:none"></div>
+                            <li>
+                                <a href="index.html#" class="header__phone hidden-tablet-big" data-toggle="modal"
+                                    data-target="#modal-phone"></a>
+                                <a href="tel:+7  495  646-16-29" class="header__phone visible-tablet-big">+7 495
+                                    646-16-29</a>
+                            </li>
+
+                            <li class="header__search-input ">
+                                <form method="get" action="https://kakchudo.ru/search/">
+                                    <input type="text" placeholder="Поиск по сайту" name="q">
+                                </form>
+                                <button href="#" class="btn header__search"></button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="index.html#" class="btn btn-red btn-help donate" data-toggle="modal"
+                        data-target="#myModal">
+                        <span>Помочь</span>
+                    </a>
+                    <a href="https://estafeta.ru" class="btn btn-red btn-estafeta" target="_blank">
+                        <span>Эстафета чудес</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="about">
+        <div class="result_container about__content">
+            <div class="result_content_container">
+                <h3 class="result_content__title">
+                    Содержание
+                </h3>
+                <div class="result_content__links">
+                    <a href="#" class="result_content__link">
+                        Адресная помощь
+                    </a>
+                    <a href="#" class="result_content__link">
+                        Школа по заболеваниям печени
+                    </a>
+                    <a href="#" class="result_content__link">
+                        Другие события <br> месяца
+                    </a>
+                    <a href="#" class="result_content__link">
+                        Прозрачность фонда
+                    </a>
+                </div>
+            </div>
+            <div class="container ">
+
+                <div class="result_top container_s">
+                    <div class="about__headline">
+                        <h1 class="headline headline--h1">
+                            <span class="accent accent--yellow wow animated" style="visibility: visible;">Итоги
+                                августа</span>
+                        </h1>
+
+                    </div>
+                    <p class="text_l">
+                        Август — время подготовки к новому учебному году. Многие наши подопечные должны не только
+                        закупить тетради и ручки, но и посетить врачей и пройти важные обследования, чтобы с
+                        новыми силами сесть
+                        за парту. Спасибо, что были рядом и помогали им на этом пути.
+                    </p>
+                </div>
+                <div class="container_s">
+                    <div class="about__headline title_flex">
+                        <h2 class="headline result-headline--h2">
+                            <span class="accent accent--yellow wow animated" style="visibility: visible;">
+                                Раздел
+                            </span>
+                        </h2>
+                        <a href="#" class="link_help">Поддержать подопечных</a>
+                    </div>
+                    <p class="text_l">
+                        Описание раздела. Август — время подготовки к новому учебному году. Многие наши подопечные
+                        должны не только закупить тетради и ручки, но и посетить врачей и пройти важные
+                        обследования, чтобы с новыми силами сесть
+                        за парту.
+                    </p>
+                </div>
+                <div class="container_s">
+                    <div class="about__headline ">
+                        <h3 class="headline result-headline--h3">
+                            Подтема 1
+                        </h3>
+
+                    </div>
+                    <p>
+                        Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+                        est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non
+                        numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </div>
+
+
+
+            </div>
+            <div class="swiper-img-container">
+                <div class="swiper_bg_img"></div>
+                <div class="swiper swiper-img">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container ">
+                    <div class="container_s">
+                        <div class="swiper-img_nav__container">
+                            <div class="swiper-img_nav">
+
+                                <div class="swiper-img_nav__prev"></div>
+                                <div class="swiper-img_nav__next"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-img_desc">
+                            <div class="swiper-counter">
+                                1/3
+                            </div>
+                            <span>
+                                Открывая игровые пространства в больницах, мы устраиваем настоящий праздник, особенно
+                                в преддверии Нового года
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="container_s">
+                    <p>
+                        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
+                        architecto
+                        beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
+                        aspernatur
+                        aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                        nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
+                        adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore
+                        magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                        nostrum exercitationem ullam
+                        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                    </p>
+                </div>
+
+                <div class="grid_content">
+                    <div class="grid_content_l">
+                        <div class="about__headline ">
+                            <h3 class="headline result-headline--h3">
+                                Подтема 2
+                            </h3>
+
+                        </div>
+                        <p>
+                            Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro
+                            quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit,
+                            sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
+                        </p>
+                        <p>
+                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas
+                            sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione
+                            voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit,
+                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut
+                            labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                            commodi consequatur?
+                        </p>
+                        <p>
+                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt, explicabo.
+                        </p>
+                    </div>
+                    <div class="grid_content_r">
+                        <img src="./templates/chudo/img/new-image-result/img2.jpg" alt="">
+                        <span class="image_caption">Наша команда</span>
+                        <img src="./templates/chudo/img/new-image-result/uder_img1.png" class="under_mob_img" alt="">
+
+                    </div>
+
+
+
+                </div>
+                <picture class="picture_result">
+                    <source srcset="./templates/chudo/img/new-image-result/graph1_mob.png" media="(max-width: 768px)" />
+                    <img src="./templates/chudo/img/new-image-result/graph1.png" alt="MDN" />
+                </picture>
+                <div class="container_s">
+                    <div class="about__headline title_flex">
+                        <h2 class="headline result-headline--h2">
+                            <span class="accent accent--yellow wow animated" style="visibility: visible;">
+                                Раздел
+                            </span>
+                        </h2>
+                        <a href="#" class="link_help">Поддержать подопечных</a>
+                    </div>
+                    <p class="text_l">
+                        Описание раздела. Август — время подготовки к новому учебному году. Многие наши подопечные
+                        должны не только закупить тетради и ручки, но и посетить врачей и пройти важные
+                        обследования, чтобы с новыми силами сесть
+                        за парту.
+                    </p>
+                </div>
+                <div class="container_s">
+                    <div class="about__headline ">
+                        <h3 class="headline result-headline--h3">
+                            Подтема 1
+                        </h3>
+
+                    </div>
+                    <p>
+                        Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam
+                        est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non
+                        numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                    <p>
+                        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto
+                        beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur
+                        aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi
+                        nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
+                        adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore
+                        magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                    </p>
+
+                </div>
+                <div class="container_s container_s--max-width">
+                    <div class="program_help">
+                        <div class="program_help_title">
+                            <span>Программы</span> <span>адресной помощи</span>
+                        </div>
+                        <div class="program_help_content">
+                            <div class="program_help_item">
+                                <span>Билеты до места лечения — <b>1 465 966,90 +  64 757</b></span>
+                                <div class="program_help_item__precent">22,9%</div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>Зарплаты сотрудникам и сторонним специалистам — <b>1 000 000 ₽</b></span>
+                                <div class="program_help_item__precent">20,7%</div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Программа «Помощь семье» —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    17,7%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Административные расходы —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    13,8%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Программа «Искусство помогать» —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    12,2%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Билеты до места лечения —
+                                    <b>
+                                        1 465 966,90 +  64 757
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    11,9%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Билеты до места лечения —
+                                    <b>
+                                        1 465 966,90 +  64 757
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    8,9%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Зарплаты сотрудникам и сторонним специалистам —
+                                    <b>
+                                        1 000 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    7,7%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Зарплаты сотрудникам и сторонним специалистам —
+                                    <b>
+                                        1 000 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    5,6%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Программа «Помощь семье» —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    5,5%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Программа «Помощь семье» —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    4,7%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Административные расходы —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    2,8%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Административные расходы —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    1,8%
+                                </div>
+                            </div>
+                            <div class="program_help_item">
+                                <span>
+                                    Программа «Искусство помогать» —
+                                    <b>
+                                        100 000 ₽
+                                    </b>
+                                </span>
+                                <div class="program_help_item__precent">
+                                    1,2%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-img-container">
+
+                <div class="swiper swiper-img">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./templates/chudo/img/new-image-result/img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container ">
+
+                    <div class="swiper-img_nav__container">
+                        <div class="swiper-img_nav">
+
+                            <div class="swiper-img_nav__prev"></div>
+                            <div class="swiper-img_nav__next"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-img_desc">
+                        <div class="swiper-counter">
+                            1/3
+                        </div>
+                        <span>
+                            Открывая игровые пространства в больницах, мы устраиваем настоящий праздник, особенно
+                            в преддверии Нового года
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="grid_content">
+                    <div class="grid_content_l">
+                        <div class="about__headline ">
+                            <h3 class="headline result-headline--h3">
+                                Подтема 2
+                            </h3>
+
+                        </div>
+                        <p>
+                            Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro
+                            quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit,
+                            sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
+                        </p>
+                        <p>
+                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas
+                            sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione
+                            voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit,
+                            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut
+                            labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                            commodi consequatur?
+                        </p>
+                        <p>
+                            Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi
+                            architecto beatae vitae dicta sunt, explicabo.
+                        </p>
+                    </div>
+                    <div class="grid_content_r">
+                        <img src="./templates/chudo/img/new-image-result/img2.jpg" alt="">
+                        <span class="image_caption">Наша команда</span>
+                        <img src="./templates/chudo/img/new-image-result/uder_img2.png" class="under_mob_img" alt="">
+
+                    </div>
+
+
+
+                </div>
+                <div class="graph-wards">
+                    <div class="graph-wards__top">
+                        <h2 class="graph-wards__title">
+                            <span class="big_text">64</span> подопечных
+                        </h2>
+                        <span class="graph-wards__title_text">
+                            Получили от нас адресную помощь в июле
+                        </span>
+                    </div>
+                    <picture class="picture_result">
+                        <source srcset="./templates/chudo/img/new-image-result/graph2_mob.png"
+                            media="(max-width: 800px)" />
+                        <img src="./templates/chudo/img/new-image-result/graph2.png" alt="MDN" />
+                    </picture>
+                </div>
+                <div class="container_s container_s--max-width">
+                    <div class="about__headline title_flex">
+                        <h2 class="headline result-headline--h2 --fw600">
+                            <span class="accent accent--yellow wow animated " style="visibility: visible;">
+                                Итоги августа
+                            </span>
+                        </h2>
+                        <a href="#" class="link_help link_help--arrow">Поддержать фонд</a>
+                    </div>
+                    <p class="text_l">
+                        Это было очень насыщенное лето: мы открывали детские игровые пространства в больницах; оснащали
+                        больницы современным оборудованием; помогали врачам получать знания; оплачивали дорогостоящие
+                        операции, обследования, лекарства нашим подопечным; выпустили книгу и провели детский
+                        фестиваль. Всё это было бы невозможно без вас. Спасибо за такое яркое лето!
+                    </p>
+                    <a href="./templates/chudo/img/logo2.png" download="" class="btn btn-red btn_big ">
+                        <span>Скачать финансовый отчет</span>
+                    </a>
+                </div>
+                <div class="container_more_program container_s container_s--max-width">
+                    <h2 class="headline result-headline--h2 --fw600 more_programm">
+                        <span class="accent accent--yellow wow animated " style="visibility: visible;">
+                            Хотите узнать больше про <br>
+                            наши программы?
+                        </span>
+                    </h2>
+                    <div class="more_programm__links">
+                        <a href="#" class="more_programm__link">
+                            «Программы адресной помощи»
+                        </a>
+                         <a href="#" class="more_programm__link">
+                           «Школа по заболеваниям печени»
+                        </a>
+                         <a href="#" class="more_programm__link">
+                            «Искусство помогать»
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__in">
+                <div class="footer-top">
+                    <div class="footer-top__l">
+                        <nav class="nav">
+                            <ul>
+                                <div id="bxdynamic_XEVOpk_start" style="display:none"></div>
+
+                                <li><a href="https://kakchudo.ru/about/">О фонде</a></li>
+
+                                <li><a href="https://kakchudo.ru/help/need/">Помочь</a></li>
+
+                                <li><a href="https://kakchudo.ru/projects/">Проекты</a></li>
+
+                                <li><a href="index.html" class="is-active">Отчёты</a></li>
+
+                                <li><a href="https://kakchudo.ru/news/">Публикации</a></li>
+
+                                <li><a href="https://kakchudo.ru/request/">Нужна помощь?</a></li>
+
+                                <li><a href="https://kakchudo.ru/about/contacts/">Контакты</a></li>
+
+
+                                <div id="bxdynamic_XEVOpk_end" style="display:none"></div>
+                                <li class="hidden-tablet-big">
+                                    <a href="tel:+7 (495) 646-16-29" class="footer__phone">+7 (495) 646-16-29</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer-phone__mobile visible-tablet-big">
+                            <span>Телефон</span>
+                            <nobr><a href="tel:+7 (495) 646-16-29" class="footer__phone">+7 (495) 646-16-29</a></nobr>
+                        </div>
+                    </div>
+
+                    <div class="footer-top__r">
+                        <a href="index.html#" data-toggle="modal" data-target="#myModal"
+                            class="btn btn-red btn-help donate">
+                            <span>Помочь</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-bottom__l">
+                        <div class="footer-copy__icon hidden-tablet-big">
+                            <i>18+</i>
+                        </div>
+                        <div class="footer-copy">
+                            <div class="footer-copy__title">
+                                <div class="footer-copy__icon visible-tablet-big">
+                                    <i>18+</i>
+                                </div>
+                                <div>
+                                    <span>© 2021. Жизнь как чудо</span>
+                                    <a href="index.html#" class="sitemap visible-tablet-big">Карта сайта</a>
+                                </div>
+                            </div>
+                            <p class="footer-copy__by">
+                                <span>Сделано в</span>
+
+                                <img src="templates/chudo/img/philgood.svg" alt="Philgood">
+
+                            </p>
+                        </div>
+
+                        <div class="footer-payment">
+                            <span class="footer-payment__title">Принимаем:</span>
+
+                            <div class="footer-payment__systems">
+                                <ul>
+                                    <li>
+                                        <img src="templates/chudo/img/payments/visa.svg" alt="Visa">
+                                    </li>
+
+                                    <li>
+                                        <img src="templates/chudo/img/payments/mastercard.svg" alt="Mastercard">
+                                    </li>
+
+                                    <li>
+                                        <img src="templates/chudo/img/payments/yandex.svg" alt="Yandex">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-address">
+                            <span class="footer-address__title">Адрес:</span>
+                            <p>127055, г.&nbsp;Москва, ул.&nbsp;Палиха 13/1 строение&nbsp;1,
+                                ст.&nbsp;м.&nbsp;Менделевская, Новослободская</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom__r">
+                        <div class="footer-bottom__item">
+                            <div class="footer-subscribe" style="max-width: 310px;">
+                                <form class="inp-group inp-group--input" style="width:100%;">
+                                    <input type="text" placeholder="Подписаться. Ваш email">
+                                    <button class="btn btn-arrow-mini"></button>
+                                </form>
+                                <label style="color: rgba(174,175,178,.5); font-size: 12px;">
+                                    <input type="checkbox" name="agree" value="1"
+                                        style="display: inline-block; margin: -2px 4px 0 0px; vertical-align: middle"
+                                        class="is-typed">
+                                    Я даю <a href="https://kakchudo.ru/upload/Soglasie_na_obrabotky_pers_dannih.docx"
+                                        target="_blank" style="color: rgba(174,175,178,.5);">согласие</a> на обработку
+                                    моих персональных данных в соответствии с <a
+                                        href="https://kakchudo.ru/politika_obrabotki_personalnyh_dannyh.pdf"
+                                        target="_blank" style="color: rgba(174,175,178,.5);">политикой </a> обработки и
+                                    хранения персональных данных
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="footer-bottom__item">
+                            <div class="footer-socials">
+                                <ul>
+
+                                    <li>
+                                        <a href="https://t.me/kakchudo" target="_blank">
+                                            <img src="templates/chudo/img/socials/telegram.svg" alt="">
+                                        </a>
+                                    </li>
+
+                                    <!--<li>
+									<a href="https://facebook.com/kakchudo" target="_blank">
+										<img src="/local/templates/chudo/img/socials/facebook.svg" alt="">
+									</a>
+								</li>-->
+
+                                    <li>
+                                        <a href="https://vk.com/kak_chudo" target="_blank">
+                                            <img src="templates/chudo/img/socials/vk.svg" alt="">
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://ok.ru/kakchudo" target="_blank">
+                                            <img src="templates/chudo/img/socials/ok.svg" alt="">
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCVAifZYwsPjxgcFZwAHBvyQ"
+                                            target="_blank">
+                                            <img src="templates/chudo/img/socials/youtube.svg" alt="">
+                                        </a>
+                                    </li>
+
+                                    <!--<li>
+									<a href="https://instagram.com/kak_chudo" target="_blank">
+										<img src="/local/templates/chudo/img/socials/instagram.svg" alt="">
+									</a>
+								</li>-->
+
+                                    <li>
+                                        <a href="https://zen.yandex.ru/kakchudo" target="_blank">
+                                            <img src="templates/chudo/img/socials/dzen.svg" alt="">
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://yandex.ru/q/org/zhizn_kak_chudo/subscribers/" target="_blank">
+                                            <img src="templates/chudo/img/socials/que.svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer-bottom__item">
+                            <a href="https://kakchudo.ru/map/" class="sitemap">Карта сайта</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal-video" class="modal modal--video fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="iframe-wrapper">
+                    <button type="button" class="close" data-dismiss="modal"></button>
+                    <iframe frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal-phone" class="modal modal--phone fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"></button>
+                <a href="tel:+7  495  646-16-29">+7 495 646-16-29</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="modal-share" class="modal modal-typical modal-share fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-headline">
+                        <span class="modal-headline__content">Поделиться</span>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-share__socials">
+                        <div class="socials">
+                            <div class="ya-share2" data-url="http://kakchudo.ru/reports/" data-title=""
+                                data-image="http://kakchudo.ru" data-description="" data-curtain
+                                data-services="facebook,vkontakte,odnoklassniki"></div>
+                        </div>
+
+                        <div class="modal-btn">
+                            <button class="btn btn-bordered-gray toBoard" data-dismiss="modal">Скопировать
+                                ссылку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-share-new" class="modal modal-typical modal-share fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-headline">
+                        <span class="modal-headline__content">Поделиться</span>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-share__socials">
+                        <div class="socials"></div>
+                        <div class="modal-btn">
+                            <button class="btn btn-bordered-gray toBoard2" data-dismiss="modal">Скопировать
+                                ссылку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="subModal" class="modal modal-typical modal-share fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-headline">
+                        <span class="modal-headline__content">Подписаться</span>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-help">
+                        <div class="inp-group inp-group--text">
+                            <div class="inp-group__in" style="height: 40px;">
+                                <input type="text" id="sub_email" placeholder="E-mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history-i__btn">
+                        <button class="btn btn-bordered-gray" id="sendEmail">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal modal-help fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-help__headline">
+                        <span>Помочь</span>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+
+
+                    <div class="modal-help__payment-way" style="display:none;">
+                        <ul class="nav nav-tabs">
+                            <li class="active" id="card"><a href="index.html#">Банковской картой</a></li>
+                            <li id="paypal"><a href="index.html#">Через PayPal</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade in active">
+                            <div class="modal-help__bank">
+                                <div class="modal-help__payment-type">
+                                    <div class="inp-group inp-group--checkbox">
+                                        <input type="checkbox" id="anonym-3" name="type-1">
+                                        <label for="anonym-3">Хочу жертвовать ежемесячно</label>
+                                    </div>
+
+                                    <div class="inp-group inp-group--checkbox">
+                                        <input type="checkbox" id="type-2" name="type-2">
+                                        <label for="type-2">Хочу жертвовать анонимно</label>
+                                    </div>
+                                </div>
+
+                                <div class="modal-help__payment-info">
+                                    <div class="inp-group inp-group--text">
+                                        <div class="inp-group__in" style="height: 40px;">
+                                            <input type="text" id="pay_fio" placeholder="Ваше имя">
+                                        </div>
+                                    </div>
+
+                                    <div class="inp-group inp-group-required inp-group--text">
+                                        <div class="inp-group__in">
+                                            <input type="text" id="pay_email" placeholder="Электронная почта">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-help__payment-select">
+                                    <input type="hidden" id="pay_collect" value="" />
+                                    <input type="hidden" id="pay_desc" value="" />
+                                </div>
+
+                                <div class="modal-help__payment-sum">
+                                    <div class="help__sum">
+                                        <div class="inp-group inp-group--checkbox">
+                                            <input type="radio" id="sum-1-1" name="sum" value="100 ₽">
+                                            <label for="sum-1-1">100 ₽</label>
+                                        </div>
+
+                                        <div class="inp-group inp-group--checkbox">
+                                            <input type="radio" id="sum-1-2" name="sum" value="500 ₽" checked>
+                                            <label for="sum-1-2">500 ₽</label>
+                                        </div>
+
+                                        <div class="inp-group inp-group--checkbox">
+                                            <input type="radio" id="sum-1-3" name="sum" value="1 500 ₽">
+                                            <label for="sum-1-3">1 500 ₽</label>
+                                        </div>
+
+                                        <div class="inp-group inp-group--checkbox">
+                                            <input type="radio" id="sum-1-4" name="sum" value="4 000 ₽">
+                                            <label for="sum-1-4">4 000 ₽</label>
+                                        </div>
+
+                                        <div class="inp-group inp-group--checkbox">
+                                            <input type="radio" id="sum-1-5" name="sum" value="7 000 ₽">
+                                            <label for="sum-1-5">7 000 ₽</label>
+                                        </div>
+
+                                        <div class="inp-group inp-group--input">
+                                            <input type="text" placeholder="Другая сумма">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal-help__payment-comment">
+                                    <div class="inp-group inp-group--text">
+                                        <div class="inp-group__in" style="height:40px">
+                                            <input type="text" id="pay_comment" placeholder="Ваш комментарий">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="vpn">С VPN могут проходить не все переводы — отключите его при необходимости
+                                </p>
+
+                                <div class="modal-help__payment-agree">
+                                    <div class="inp-group inp-group--checkbox">
+                                        <input type="checkbox" id="agree-1" name="agree-1" checked>
+                                        <label for="agree-1">Нажимая поддержать вы соглашаетесь на обработку
+                                            персональных данных и согласны с условиями <a
+                                                href="https://kakchudo.ru/oferta.pdf" target="_blank">оферты</a></label>
+                                    </div>
+                                </div>
+
+                                <div class="modal-help__btn">
+                                    <button class="btn btn-red">
+                                        <span>Помочь</span>
+                                        <span class="modal-help__btn-sum">— 500₽</span>
+                                    </button>
+                                </div>
+
+                                <form action="https://www.paypal.com/cgi-bin/websc" method="post" id="PPForm">
+
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-info" class="modal modal-typical modal-info fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-headline">
+                        <span class="modal-headline__content">Спасибо</span>
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-title">
+                        <span class="modal-title__content">Вы успешно подписались на рассылку. Обещаем не спамить! Но вы
+                            всегда можете от нее отписаться.</span>
+                    </div>
+
+                    <div class="modal-btn">
+                        <button class="btn btn-bordered-gray" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+
+    <script
+        type="text/javascript">if (!window.BX) window.BX = {}; if (!window.BX.message) window.BX.message = function (mess) { if (typeof mess === 'object') { for (let i in mess) { BX.message[i] = mess[i]; } return true; } };</script>
+    <script>(window.BX || top.BX).message({ "JS_CORE_LOADING": "Загрузка...", "JS_CORE_NO_DATA": "- Нет данных -", "JS_CORE_WINDOW_CLOSE": "Закрыть", "JS_CORE_WINDOW_EXPAND": "Развернуть", "JS_CORE_WINDOW_NARROW": "Свернуть в окно", "JS_CORE_WINDOW_SAVE": "Сохранить", "JS_CORE_WINDOW_CANCEL": "Отменить", "JS_CORE_WINDOW_CONTINUE": "Продолжить", "JS_CORE_H": "ч", "JS_CORE_M": "м", "JS_CORE_S": "с", "JSADM_AI_HIDE_EXTRA": "Скрыть лишние", "JSADM_AI_ALL_NOTIF": "Показать все", "JSADM_AUTH_REQ": "Требуется авторизация!", "JS_CORE_WINDOW_AUTH": "Войти", "JS_CORE_IMAGE_FULL": "Полный размер" });</script>
+    <script src="js/main/core/core.min.js@1758114996229643"></script>
+    <script>BX.Runtime.registerExtension({ "name": "main.core", "namespace": "BX", "loaded": true });</script>
+    <script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js", "\/bitrix\/js\/main\/core\/core_promise.js", "\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js", "\/bitrix\/js\/main\/loadext\/loadext.js", "\/bitrix\/js\/main\/loadext\/extension.js", "\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js", "\/bitrix\/js\/main\/polyfill\/find\/js\/find.js", "\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js", "\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js", "\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js", "\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js", "\/bitrix\/js\/main\/polyfill\/find\/js\/find.js", "\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js", "\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js", "\/bitrix\/js\/main\/core\/core.js", "\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js", "\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js", "\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js", "\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+    </script>
+    <script>BX.Runtime.registerExtension({ "name": "ui.dexie", "namespace": "BX.DexieExport", "loaded": true });</script>
+    <script>BX.Runtime.registerExtension({ "name": "ls", "namespace": "window", "loaded": true });</script>
+    <script>BX.Runtime.registerExtension({ "name": "fx", "namespace": "window", "loaded": true });</script>
+    <script>BX.Runtime.registerExtension({ "name": "fc", "namespace": "window", "loaded": true });</script>
+    <script>(window.BX || top.BX).message({ "LANGUAGE_ID": "ru", "FORMAT_DATE": "DD.MM.YYYY", "FORMAT_DATETIME": "DD.MM.YYYY HH:MI:SS", "COOKIE_PREFIX": "BITRIX_SM", "SERVER_TZ_OFFSET": "10800", "UTF_MODE": "Y", "SITE_ID": "s1", "SITE_DIR": "\/" });</script>
+    <script type="text/javascript" src="cache/js/s1/chudo/kernel_main/kernel_main_v1.js@1768923811158483"></script>
+    <script type="text/javascript" src="js/ui/dexie/dist/dexie.bundle.min.js@1758114974102530"></script>
+    <script type="text/javascript" src="js/main/core/core_ls.min.js@17581149522683"></script>
+    <script type="text/javascript" src="js/main/core/core_frame_cache.min.js@175811497410481"></script>
+    <script type="text/javascript" src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
+    <script
+        type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core_fx.js', '/bitrix/js/main/session.js', '/bitrix/js/main/pageobject/dist/pageobject.bundle.js', '/bitrix/js/main/core/core_window.js', '/bitrix/js/main/date/main.date.js', '/bitrix/js/main/core/core_date.js', '/bitrix/js/main/utils.js', '/local/templates/chudo/js/libs.min.js', '/local/templates/chudo/js/app.min.js', '/local/templates/chudo/js/jquery-ui.js', '/local/templates/chudo/js/script.js', '/local/components/philgood/subscribe/templates/footer/script.js']);</script>
+    <script
+        type="text/javascript">BX.setCSSList(['/local/templates/chudo/css/app.min.css', '/local/templates/chudo/css/custom.css', '/local/templates/chudo/css/jquery-ui.css', '/bitrix/components/niges/cookiesaccept/templates/.default/style.css', '/local/templates/chudo/template_styles.css']);</script>
+    <script type="text/javascript">
+        if (window == window.top) {
+            document.addEventListener("DOMContentLoaded", function () {
+                var div = document.createElement("div"); div.innerHTML = ' <div id="nca-cookiesaccept-line" class="nca-cookiesaccept-line style-4 "> <div id="nca-nca-position-left"id="nca-bar" class="nca-bar nca-style- nca-animation-none nca-position-left"> <div class="nca-cookiesaccept-line-text">Для корректного функционирования сайта и его взаимодействия с пользователями мы собираем метаданные, такие как файлы «Cookie», данные об IP-адресе и местоположении. Если вы не хотите, чтобы эти данные обрабатывались, пожалуйста, покиньте сайт. Продолжая использовать наш сайт, вы даете согласие на обработку файлов «Cookie» и метаданных, соглашаетесь с <a href="https://kakchudo.ru/politika_obrabotki_personalnyh_dannyh.pdf" target="_blank">Политикой конфиденциальности</a></div> <div><button type="button" id="nca-cookiesaccept-line-accept-btn" onclick="ncaCookieAcceptBtn()" >Принять</button></div> </div> </div> ';
+                document.body.appendChild(div);
+            });
+        }
+        function ncaCookieAcceptBtn() {
+            var alertWindow = document.getElementById("nca-cookiesaccept-line"); alertWindow.remove();
+            var cookie_string = "NCA_COOKIE_ACCEPT_1" + "=" + escape("Y");
+            var expires = new Date((new Date).getTime() + (1000 * 60 * 60 * 24 * 1500));
+            cookie_string += "; expires=" + expires.toUTCString();
+            cookie_string += "; path=" + escape("/");
+            document.cookie = cookie_string;
+        }
+        function ncaCookieAcceptCheck() {
+            var closeCookieValue = "N";
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + "NCA_COOKIE_ACCEPT_1" + "=");
+            if (parts.length == 2) {
+                closeCookieValue = parts.pop().split(";").shift();
+            }
+            if (closeCookieValue != "Y") {
+                /*document.head.insertAdjacentHTML("beforeend", "<style>#nca-cookiesaccept-line {display:flex}</style>")*/
+            } else {
+                document.head.insertAdjacentHTML("beforeend", "<style>#nca-cookiesaccept-line {display:none}</style>")
+            }
+        }
+        ncaCookieAcceptCheck();
+    </script>
+    <script type="text/javascript"
+        src="cache/js/s1/chudo/template_06d14801c4d08d20a9c8e5e3ea7f6a03/template_06d14801c4d08d20a9c8e5e3ea7f6a03_v1.js@17689158481246481"></script>
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-102212962-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+    </script>
+
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <script type="text/javascript">
+        (function () {
+            'use strict';
+
+            var loadedMetrica = false,
+                timerId;
+
+            if (navigator.userAgent.indexOf('YandexMetrika') > -1) {
+                loadMetrica();
+            } else {
+                window.addEventListener('scroll', loadMetrica, { passive: true });
+                window.addEventListener('touchstart', loadMetrica);
+                document.addEventListener('mouseenter', loadMetrica);
+                document.addEventListener('click', loadMetrica);
+                document.addEventListener('DOMContentLoaded', loadFallback);
+            }
+
+            function loadFallback() {
+                timerId = setTimeout(loadMetrica, 1000);
+            }
+
+            function loadMetrica(e) {
+                if (e && e.type) {
+                    console.log(e.type);
+                } else {
+                    console.log('DOMContentLoaded');
+                }
+
+                if (loadedMetrica) {
+                    return;
+                }
+
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                    m[i].l = 1 * new Date();
+                    for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(89224438, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true,
+                    ecommerce: "dataLayer"
+                });
+
+                (function (m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                    m[i].l = 1 * new Date();
+                    for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(100460619, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
+                });
+
+                loadedMetrica = true;
+
+                clearTimeout(timerId);
+
+                window.removeEventListener('scroll', loadMetrica);
+                window.removeEventListener('touchstart', loadMetrica);
+                document.removeEventListener('mouseenter', loadMetrica);
+                document.removeEventListener('click', loadMetrica);
+                document.removeEventListener('DOMContentLoaded', loadFallback);
+            }
+        })()
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./page-result.js"></script>
+</body>
+
+</html>
+<!--ba916d7006d66376a127fcebf0bda9e0-->
