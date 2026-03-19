@@ -6,7 +6,8 @@
 .result_content_container {
     position: fixed;
     z-index: 12;
-    left: 60px;
+    left: 50%;
+    transform: translateX(calc(-50% - 776px));
     top: 186px;
     display: flex;
     flex-direction: column;
@@ -433,6 +434,7 @@ a.more_programm__link {
 @media (max-width: 1930px) {
     .result_content_container {
         left: 0;
+        transform: none;
     }
 }
 
